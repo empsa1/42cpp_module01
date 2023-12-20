@@ -1,11 +1,11 @@
 
-SRC = src/Zombie.cpp src/main.cpp
+SRC = src/Harl.cpp src/main.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 RM = rm -f
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = Brainz
+NAME = Harl
 
 all: $(NAME)
 

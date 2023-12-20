@@ -4,10 +4,8 @@ Zombie*	zombieHorde(int N, std::string name);
 
 int	main(void)
 {
-	int	size;
-
-	size = 20;
-	Zombie *horde = zombieHorde(size, "Zom");
+	int	size = 15;
+	Zombie *horde = zombieHorde(size, "Roger");
 	for (int i = 0; i < size; i++)
 		horde[i].announce();
 	delete [] horde;
