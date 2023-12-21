@@ -1,5 +1,5 @@
 
-SRC = src/Zombie.cpp src/main.cpp
+SRC = src/Zombie.cpp src/main.cpp src/randomChump.cpp src/newZombie.cpp
 OBJ = $(SRC:.cpp=.o)
 CC = g++
 RM = rm -f
